@@ -1,0 +1,42 @@
+{ "name": "font-awesome-icons-overview",
+  "version": "0.1.0",
+  "description": "Generate a list of all the icons in specifically your currently installed version of FontAwesome.",
+  "keywords": [
+    "font-awesome"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/font-awesome-icons-overview-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/font-awesome-icons-overview-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/font-awesome-icons-overview-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "type": "module",
+  "exports": "package.json",
+  "main": "package.json",
+  "scripts": {
+    "lint": "elp",
+    "test": "elp && nodemjs test/all.mjs"
+  },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.2.0",
+    "eslint-pretty-pmb": "^1.0.2",
+    "nodemjs": "^0.1.9"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}

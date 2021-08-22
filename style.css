@@ -1,0 +1,52 @@
+﻿@charset "UTF-8";
+/* -*- coding: UTF-8, tab-width: 2 -*- */
+
+.fa {
+  font-family: "FontAwesome", "FontAwes0me";
+}
+
+body {
+  background: dimgrey;
+}
+
+ul, li { display: block; margin: 0; padding: 0; }
+
+li {
+  float: left;
+  margin: 1em;
+  border: 1px solid gainsboro;
+  background-color: gray;
+  padding: 0.2em;
+  color: gainsboro;
+}
+
+li .icon-container, li .name-container {
+  display: block;
+  width: 4em;
+  overflow: hidden;
+}
+
+li .icon-container {
+  width: 4em;
+  height: 4em;
+  text-align: center;
+}
+
+li .fa {
+  font-size: 4em;
+  line-height: 1em;
+}
+
+li .name {
+  margin-top: 0.2em;
+  padding: 0;
+  width: 100%;
+  border-width: 0;
+  background-color: inherit;
+  color: inherit;
+  font-family: monospace;
+  font-size: 100%;
+}
+
+
+
